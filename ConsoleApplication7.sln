@@ -21,7 +21,6 @@
 			}
 		}
 
-
 		int main(){
 			int patern_map[3][3] = { 0, }; //맵 배열
 			int time_stack = 0; //점을 찍은 횟수
