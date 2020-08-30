@@ -34,7 +34,6 @@
 			int end = 0; //프로그램의 종료를 체크
 			srand(time(NULL));
 		
-	
 			while (end == 0)
 			{
 			printf("점의 수를 입력해주세요 (4 이상 9 이하):");
@@ -55,7 +54,6 @@
 						{
 							new_x = generate_new_position();
 							new_y = generate_new_position();
-
 
 							if (patern_map[new_x][new_y] != 0) //이미 있는 위치에 잡힌 경우
 							{
@@ -81,10 +79,7 @@
 								current_y = new_y;
 								patern_map[current_x][current_y] = time_stack + 1;
 								time_stack++;
-
 							}
-
-
 						}
 					}
 					print_patern(patern_map);
@@ -93,7 +88,6 @@
 				else
 				{
 					printf("4~9 사이의 수를 입력해주세요\n");
-
 				}
 			}
 		}
