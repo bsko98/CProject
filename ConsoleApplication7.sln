@@ -2,7 +2,6 @@
 		#include<stdlib.h>
 		#include<time.h>
 
-
 		int generate_new_position() //난수 발생기 (배열 내에 위치하도록)
 		{
 			int a;
